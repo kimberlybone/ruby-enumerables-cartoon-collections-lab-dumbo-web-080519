@@ -6,7 +6,9 @@ end
 
 def summon_captain_planet(calls)
   array = []
-  while calls.map do |calls|
+  i = 0 
+  while i < calls.length 
+  calls.map do |calls|
     return "#{calls.capitalize}!"
   end 
 end
